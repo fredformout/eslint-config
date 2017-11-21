@@ -1,0 +1,27 @@
+{
+  "name": "@appbooster/eslint-config-base",
+  "version": "1.0.0",
+  "description": "Appbooster's ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "appbooster",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Alexandr Subbotin <kelionweb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint-config-airbnb-base": "^12.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

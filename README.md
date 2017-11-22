@@ -1,5 +1,7 @@
 # @appbooster/eslint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/appbooster/eslint-config.svg)](https://greenkeeper.io/)
+
 Shared eslint config of Appbooster organization
 
 ## Installation

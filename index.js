@@ -7,6 +7,7 @@ module.exports = {
     commonjs: true,
     es6: true,
   },
+  parser: 'babel-eslint',
   rules: {
     strict: 0,
     'max-len': [2, {

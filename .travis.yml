@@ -1,5 +1,10 @@
 language: node_js
 node_js:
-  - "9"
+- '9'
 script:
-  - npm run lint
+- npm run lint
+deploy:
+  provider: npm
+  email: admin@appbooster.ru
+  api_key:
+    secure: fG944WcRC303+hS2+CbpW/70PQv9p+DIGnAN8eUYazAfXMmCXOh15cUOqdbJyiDO9GWsy3eLuYBspCoie1OuyaqydZQYe+BbGn+2YvWTAEEUXVr9o0g2csezZs/HvTXZg8MHxCNR8TapHCWTjNBtHunrpFqtOsYbcI24HRVYwCcfyPxO+1j4MOzJXXVfNY+HGQYKZAUF2xXD/5QtFvcURplE0nAt7q8axBPSmppeMpJRQzlaBzvPyZRcTCSvOlQfBe4UraIf/wysesueiyWun1RGy2KXjqHvyY6JW9+GysFfbS9AR1pQ8VFZPdZWWTpcEVBb4DFTwYhHqfznQZ/tsSV+sPRqUAvU7a3E8HVY6lSrhPUPkWHqs76OJseGgEGJRbVtg42VWd8JZ3YtpO1eOVgwjdXR+8dSRf2HM5ER6rpAAIrBOQ5tWGcfdBUzTJ9+bWu2b9boecIw75eOBquA7exZP5jtkJD3SHOnu0ILch80H8IRuEtOqBGWhTznpIB9xPDaOmWJvw2rQkbNTC+08l/yaz+e1G54Ij1CiflqDkHQq3Mh9tSQArfCZBFBxX0ngKISYaW9M4yFz4Ifrw2aY0Yz6OpflBWV1DboMkJ9O37oEtRbv2nmQFs72TfW1yrqoeM0Vxt+358JrTTYi0VVBfJut7dSS3BCVucDEFw4zFE=
